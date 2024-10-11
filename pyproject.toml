@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-spacy-starter-kit"
+version = "0.1.0"
+description = ""
+authors = ["Luilver Garces <luilver@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+spicy = "^0.16.0"
+spacy = "^3.8.2"
+
+[tool.poetry.group.dev.dependencies]
+spicy = "^0.16.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
